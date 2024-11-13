@@ -1,0 +1,52 @@
+
+<html>
+   <head>
+     <title>MY 1st HTML BROWSER</title>
+   </head>
+<body>
+   <p><B>THIS IS MY 1ST WEB PAGE</b></P>
+   <br>
+   <button><b><center><a href="https://www.youtube.com/">
+   YOUTUBE</a></center></b><button>
+<br>
+<br>
+<table border="2">
+<tr><th colspan="3">Student data</th></tr>
+<tr>
+   <th>Name</th>
+   <th>Roll no</th>
+   <th>Subject</th>
+</tr>
+<tr>
+ <td>Debashish</td>
+ <td>091</td>
+ <td>CXDP</td>
+</tr>
+</table>
+<br>
+<form>
+    <lable for="name">name:</lable>
+    <input type="text"id="name"name="name">
+    <br>
+    <lable for="email">email:</lable>
+    <input type="email" id ="email"name="email">
+    <br>
+    <lable for="password">password:</lable>
+    <input type="password"id="password"name="password">
+    <br>
+    <lable for="country">choose your county:</lable>
+    <select id="counrty"name="country">
+    <option value=""></option>
+    <option value="usa">USA</option>
+    <option value="india">INDIA</option>
+    <option value="canada">CANADA</option>
+    <option value="uk">UK</option>
+    </select>
+    <br>
+    <lable for="message">message:</lable>
+    <textarea id="message"name="message"rows="4"cols="50"></textarea>
+    <input type="submit" value="submit">
+    <br>   
+</form>
+</body>
+</html>
